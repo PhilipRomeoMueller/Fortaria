@@ -1,10 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://rusumuaao550"]
 
-[ext_resource type="PackedScene" uid="uid://xev8a47mi4jo" path="res://scenes/testbody.tscn" id="1_hi72m"]
+[ext_resource type="PackedScene" uid="uid://dwjscd4y486yo" path="res://scenes/character_body_2d.tscn" id="1_o5qli"]
 
 [node name="Node2D" type="Node2D"]
 
-[node name="Testbody" parent="." instance=ExtResource("1_hi72m")]
-position = Vector2(2, -1)
-
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("1_o5qli")]
+position = Vector2(0, 3)
