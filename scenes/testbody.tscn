@@ -3,10 +3,9 @@
 [ext_resource type="Script" uid="uid://cbns0ygaj28dn" path="res://scripts/testbody.gd" id="1_muyg6"]
 [ext_resource type="Texture2D" uid="uid://bygvii7qqth1p" path="res://sprites/icon.svg" id="2_ypkfw"]
 
-
 [node name="Testbody" type="CharacterBody2D"]
 script = ExtResource("1_muyg6")
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(-2, -3)
+position = Vector2(-5, -4)
 texture = ExtResource("2_ypkfw")
