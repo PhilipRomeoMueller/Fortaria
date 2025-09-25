@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0uaq8e8goyx7"
-path="res://.godot/imported/Spritesheet-Volcano2-Really.png-99a988c8748718a6924bf5ca73c9f067.ctex"
+uid="uid://bfbblg3hsuet0"
+path="res://.godot/imported/Spritesheet-Volcano1-Really.png-44f366fd8feecd77226dc1e18c405a2c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Spritesheet-Volcano2-Really.png"
-dest_files=["res://.godot/imported/Spritesheet-Volcano2-Really.png-99a988c8748718a6924bf5ca73c9f067.ctex"]
+source_file="res://sprites/Spritesheet-Volcano1-Really.png"
+dest_files=["res://.godot/imported/Spritesheet-Volcano1-Really.png-44f366fd8feecd77226dc1e18c405a2c.ctex"]
 
 [params]
 
