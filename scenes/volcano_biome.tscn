@@ -30,6 +30,7 @@ tile_size = Vector2i(32, 32)
 sources/0 = SubResource("TileSetAtlasSource_tqpsb")
 
 [node name="Volcano Biome" type="Node2D"]
+position = Vector2(-2, 0)
 metadata/_edit_horizontal_guides_ = [50.0, 53.0]
 
 [node name="TileMap" type="TileMap" parent="."]
