@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://4mhg4mk5j64a"]
 
-[ext_resource type="Texture2D" uid="uid://d0uaq8e8goyx7" path="res://assets/Spritesheet-Volcano2-Really.png" id="1_5tonn"]
+[ext_resource type="Texture2D" uid="uid://d0uaq8e8goyx7" path="res://sprites/Spritesheet-Volcano2-Really.png" id="1_5tonn"]
 [ext_resource type="PackedScene" uid="uid://ccmiblw67v7d1" path="res://scenes/Creatures/volcano_slime.tscn" id="2_tqpsb"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tqpsb"]
