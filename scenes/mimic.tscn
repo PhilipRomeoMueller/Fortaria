@@ -141,4 +141,4 @@ animations = [{
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_2texd")
-animation = &"move right down"
+animation = &"move left down"
