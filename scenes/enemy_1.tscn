@@ -1,5 +1,7 @@
-[gd_scene load_steps=0 format=3 uid="uid://broj26niq8mgk"]
+[gd_scene format=3 uid="uid://broj26niq8mgk"]
 
 [node name="Enemy 1" type="CharacterBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
