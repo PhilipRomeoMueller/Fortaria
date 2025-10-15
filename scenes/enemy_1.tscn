@@ -1,7 +1,11 @@
-[gd_scene format=3 uid="uid://broj26niq8mgk"]
+[gd_scene load_steps=2 format=3 uid="uid://broj26niq8mgk"]
+
+[ext_resource type="Texture2D" uid="uid://bygvii7qqth1p" path="res://sprites/icon.svg" id="1_tcmaw"]
 
 [node name="Enemy 1" type="CharacterBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+modulate = Color(1, 0.17254902, 0.23921569, 1)
+texture = ExtResource("1_tcmaw")
