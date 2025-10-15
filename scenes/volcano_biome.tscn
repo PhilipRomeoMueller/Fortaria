@@ -40,3 +40,6 @@ layer_0/tile_data = PackedInt32Array(720901, 0, 0, 720902, 196608, 0, 720903, 19
 
 [node name="Volcano_Slime" parent="." instance=ExtResource("2_tqpsb")]
 position = Vector2(281, 214)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(429, 250)
