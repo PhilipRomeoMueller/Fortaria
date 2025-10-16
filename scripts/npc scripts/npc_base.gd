@@ -75,7 +75,7 @@ func get_idle_vector() -> Vector2:
 
 # chase und attacke
 func chase_and_attack(delta):
-	if global_position.distance_to(target.global_position) > 2:
+	if global_position.distance_to(target.global_position) > 40:
 		nav_agent.target_position = target.global_position
 		var next_pos = nav_agent.get_next_path_position()
 		var direction = (next_pos - global_position).normalized()
