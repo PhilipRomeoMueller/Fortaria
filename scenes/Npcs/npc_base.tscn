@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=3 uid="uid://daxeq1oilm52x"]
+
+[ext_resource type="Script" uid="uid://brsqxyf0nhpg8" path="res://scripts/npc scripts/npc_base.gd" id="1_e8tes"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_e8tes"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"new_animation",
+"speed": 5.0
+}]
+
+[node name="npc_base" type="CharacterBody2D"]
+script = ExtResource("1_e8tes")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_e8tes")
+animation = &"new_animation"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+
+[node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+
+[node name="Timer" type="Timer" parent="."]
