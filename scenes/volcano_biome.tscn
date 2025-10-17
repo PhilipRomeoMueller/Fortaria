@@ -55,11 +55,11 @@ navigation_polygon = SubResource("NavigationPolygon_2unai")
 [node name="Slime_volcano" parent="." instance=ExtResource("2_tqpsb")]
 position = Vector2(250, 179)
 team = 2
-detection_radius = 50.0
+detection_radius = 300.0
 
 [node name="Slime_volcano2" parent="." instance=ExtResource("2_tqpsb")]
 position = Vector2(610, 168)
-detection_radius = 50.0
+detection_radius = 300.0
 
 [node name="GameController" type="Node2D" parent="."]
 script = ExtResource("3_2unai")
