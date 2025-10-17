@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://vvvmd3o25r5f"]
+
+[ext_resource type="PackedScene" uid="uid://daxeq1oilm52x" path="res://scenes/Npcs/npc_base.tscn" id="1_2tki7"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2lodi"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="Mimic" instance=ExtResource("1_2tki7")]
+
+[node name="AnimatedSprite2D" parent="." index="0"]
+sprite_frames = SubResource("SpriteFrames_2lodi")
+animation = &"walk"
